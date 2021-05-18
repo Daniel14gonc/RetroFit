@@ -28,7 +28,6 @@ class ArticleAdapter (private val articles: List<Articles>) : RecyclerView.Adapt
         fun bindItems(item: Articles) {
             Picasso.get().load(item.urlToImage).into(binding.imgArticle)
             binding.txtDescription.text = item.description
-
         }
     }
 }

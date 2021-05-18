@@ -55,7 +55,7 @@
             android:layout_weight="1"
             android:inputType="none"
             android:textColor="@color/white"
-            android:text="us" />
+            android:text="País" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
